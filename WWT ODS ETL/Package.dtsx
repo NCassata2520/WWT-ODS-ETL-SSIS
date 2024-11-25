@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/16/2024 3:05:53 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-K10DQG8"
+  DTS:CreatorName="DESKTOP-K10DQG8\Natet"
+  DTS:DTSID="{E7CCC7B7-28CE-47F6-A971-928156668D5C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5556.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{EC0FCC43-294F-4869-BC4A-C968CBCA79A6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[BITSQL.wctc.edu.NW_Traders_Sales.WWT_Reporting]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{70CB6C07-CB61-41FD-BDDB-AB84B7B8F43A}"
+      DTS:ObjectName="BITSQL.wctc.edu.NW_Traders_Sales.WWT_Reporting">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=BITSQL.wctc.edu;User ID=WWT_Reporting;Initial Catalog=NW_Traders_Sales;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASd+E+IFA50C4HDGl1AiL2AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAATtpzRZC4JS6fpJtALTkVDLXMdTw0z3g/524SEoWc8vgAAAAAOgAAAAAIAACAAAAAPSRA3Jf3SVWSZ9JrIgwSWCtGceUTM9dvIbbBkjdo+UiAAAAA0u+3i8tAEqUtchJkzkHJmfkMuP3maVfyaavlCzbp1v0AAAADxiHtmTMcbOVe+IEyjR1ES9fR2+DlQT08Tz4PZN/Dic/2usITtOxpdvw3B8zL0DMAoaeeIbCaWE9bXagT1EUly</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[BITSQL.wctc.edu.SouthwindSales.WWT_Reporting]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{147A94AC-AA84-435F-BD09-081BE4D166AB}"
+      DTS:ObjectName="BITSQL.wctc.edu.SouthwindSales.WWT_Reporting">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=BITSQL.wctc.edu;User ID=WWT_Reporting;Initial Catalog=SouthwindSales;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASd+E+IFA50C4HDGl1AiL2AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPAg093NcB0uasi2cGZTrsbjhppb9LdmaN80Z+a4Y5JQAAAAAOgAAAAAIAACAAAADe4ismCAH3O0K6ai7Fsr0TocmmE110lJlgiU2V4pdvuyAAAAD+nGNOUvEiAXG7USKwLkKaMNZq6xvJN4nGXbdCXyE+TkAAAACyPi743ErGHO2Dxam6GOxGGpdNWsZJV5XMK+8EU9e48fi6xxGbiVql9YIv4lx2S33G11fKRwoOajAnt300zy49</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[bitsql.wctc.edu.WWT_ODS_NMC.ncassata]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{91F30355-0DB4-4A5A-AB89-D74287FB2DE4}"
+      DTS:ObjectName="bitsql.wctc.edu.WWT_ODS_NMC.ncassata">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=bitsql.wctc.edu;User ID=ncassata;Initial Catalog=WWT_ODS_NMC;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASd+E+IFA50C4HDGl1AiL2AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC6JaE0TaiX2Slgonc6e3MbI/uycsxo8o8R5dGsveEFowAAAAAOgAAAAAIAACAAAABixc35VgNO7USTwzctP67oZV4eYskMkr7wLeJp801YDiAAAACMLS/4RLWNVLs5f7EQjpocH4+UN4Vl55sLNzw2EBTAv0AAAABzsh7B1kn4UJgi1snjKMuJdjFJt47tHrVt8N4vIECFi9ON4AoCp92H3fgMrjx3tzNnC4elTg6MGrVL50J+xjXr</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ncassata]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{DEA40AC4-38CF-428C-B1BA-4E82F6255CD4}"
+      DTS:ObjectName="localhost.ncassata">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;User ID=ncassata;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASd+E+IFA50C4HDGl1AiL2AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmaMb2y5keOX/wRDvj707YFA+MKO6GOwsBoJAnmgyZ/gAAAAAOgAAAAAIAACAAAACiUyLJoTOgY7UYWhTEUBoXq2v3vQIY99Q1rOfdS4DU0iAAAACcFwkRmjHp30a0oLwE6dwDslpAJd2XRHD+Ifdzz4W7vEAAAAD0iOeHBZW+m6952BKJaDfzCUYMZkE/EO/TlqV4J/9w4lhs27v+76hf2cXJlwPVxfd/nQsb7vsISwYNGyUhXoQc</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.WWT_ODS_NMC]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F92CE9F5-955D-4588-8FCC-F54AFDA6DDD6}"
+      DTS:ObjectName="localhost.WWT_ODS_NMC">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=WWT_ODS_NMC;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{8A2E04E5-655A-4AF4-A077-96BF243EF713}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{F92CE9F5-955D-4588-8FCC-F54AFDA6DDD6}"
+          SQLTask:SqlStatementSource="Exec ETL_ETLContol" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Execute SQL Task"
+          TopLeft="293,301" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
